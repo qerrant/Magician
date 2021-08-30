@@ -33,7 +33,6 @@ FUnistrokeResult FUnistrokeRecognizer::Recognize(const TArray<FVector2D> &Vector
 			TemplateIndex = i;
 		}
 	}
-	UE_LOG(LogTemp, Warning, TEXT("Tested"));
 
 	const FDateTime EndTime = FDateTime::Now();
 	const float ElapsedTime = (EndTime.GetMillisecond() - StartTime.GetMillisecond()) / 1000;
