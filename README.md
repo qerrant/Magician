@@ -1,5 +1,5 @@
 # Magician
-This project is a port of the [$1 Unistroke Recognizer](http://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf) to Unreal Engine (C++).
+This project is a port of the [$1 Unistroke Recognizer](http://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf) to Unreal Engine (C++). There are only 6 templates (star, triangle, circle, v, x, pigtail), but you can add your own both by exporting CSV tables and in training mode. The project used UE4 v4.26.
 ## Training
 Enter the **TrainMode [value]** in the console (~).
 * 1 - ON
